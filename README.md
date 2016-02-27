@@ -46,7 +46,7 @@ DHT11
 
 ## Refreence
 
-Arduino£ºhttps://www.arduino.cc/
+Arduino and Python £ºhttp://playground.arduino.cc/Interfacing/Python
 
 ## License
 

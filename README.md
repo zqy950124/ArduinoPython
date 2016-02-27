@@ -20,13 +20,13 @@ A serial port packet monitor that plots live data using PyQwt
 
 Tornado web server on PC which listens for serial communication from Arduino 
 
-## Refreence
+## Reference
 
 1. Arduino: http://www.arduino.cc/
 
-2. Arduino and Python £ºhttp://playground.arduino.cc/Interfacing/Python
+2. Arduino and Python£º http://playground.arduino.cc/Interfacing/Python
 
-3. PyQt £ºhttps://riverbankcomputing.com/software/pyqt/intro
+3. PyQt£º https://riverbankcomputing.com/software/pyqt/intro
 
 4. Tornado Web Server£º  http://www.tornadoweb.org/en/stable/
 

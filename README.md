@@ -4,45 +4,21 @@ Example Projects: mirror of local eclipse workspace)
 
 ## PyQtArduinoSerialDemo
 
-PyQt 
+A threaded GUI example with Python and Qt/PyQt 
 
-PySerial 
+This simple example display information from the Arduino and DHT11. 
 
-Arduino
+Refreence£º http://blog.wickeddevice.com/?p=191 
 
-DHT11
+## PyQtDHT11Sensor
 
-## PyQtArduinoSerialDemo
+A threaded GUI example with Python and Qt/PyQt 
 
-PyQt 
-
-PySerial 
-
-Arduino
-
-DHT11
-
-## PyQtArduinoSerialDemo
-
-PyQt 
-
-PySerial 
-
-Arduino
-
-DHT11
+A serial port packet monitor that plots live data using PyQwt
 
 ## TornadoArduinoDHT11_LEDWebSocket
 
-Tornado 
-
-PySerial 
-
-Websocket 
-
-Arduino
-
-DHT11
+Tornado web server on PC which listens for serial communication from Arduino 
 
 ## Refreence
 

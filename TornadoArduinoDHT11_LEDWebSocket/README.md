@@ -2,6 +2,8 @@
 TornadoArduinoDHT11
 ===========
 
+Tornado web server on PC which listens for serial communication from Arduino 
+
 TornadoArduinoDHT11 enables real time plotting of DHT11 signals in the browser
 
 ## Technical

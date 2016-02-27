@@ -1,6 +1,6 @@
 # Example 
 
-Example Projects: mirror of local eclipse workspace)
+Example Projects: mirror of local eclipse workspace
 
 ## PyQtArduinoSerialDemo
 
@@ -22,7 +22,13 @@ Tornado web server on PC which listens for serial communication from Arduino
 
 ## Refreence
 
-Arduino and Python £ºhttp://playground.arduino.cc/Interfacing/Python
+1. Arduino: http://www.arduino.cc/
+
+2. Arduino and Python £ºhttp://playground.arduino.cc/Interfacing/Python
+
+3. PyQt £ºhttps://riverbankcomputing.com/software/pyqt/intro
+
+4. Tornado Web Server£º  http://www.tornadoweb.org/en/stable/
 
 ## License
 

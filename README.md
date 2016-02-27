@@ -8,7 +8,7 @@ A threaded GUI example with Python and Qt/PyQt
 
 This simple example display information from the Arduino and DHT11. 
 
-Refreence£º http://blog.wickeddevice.com/?p=191 
+Reference:  http://blog.wickeddevice.com/?p=191 
 
 ## PyQtDHT11Sensor
 

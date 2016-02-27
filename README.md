@@ -1,6 +1,6 @@
 # Example 
 
-Example Projects: mirror of local eclipse workspace
+This is a mirror of the local eclipse workspace for example projects:
 
 ## PyQtArduinoSerialDemo
 

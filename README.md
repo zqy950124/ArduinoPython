@@ -1,5 +1,7 @@
 # Example 
 
+[![Gitter](https://badges.gitter.im/Py03013052/ArduinoPython.svg)](https://gitter.im/Py03013052/ArduinoPython?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 This is a mirror of the local eclipse workspace for example projects:
 
 ## PyQtArduinoSerialDemo

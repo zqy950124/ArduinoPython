@@ -18,6 +18,8 @@ A threaded GUI example with Python and Qt/PyQt
 
 A serial port packet monitor that plots live data using PyQwt
 
+Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
+
 ## TornadoArduinoDHT11_LEDWebSocket
 
 Tornado web server on PC which listens for serial communication from Arduino 

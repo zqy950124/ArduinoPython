@@ -24,6 +24,13 @@ Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
 
 Tornado web server on PC which listens for serial communication from Arduino 
 
+## PyQtUltrasonic
+
+Ultrasonic: A threaded GUI example with Python and Qt/PyQt 
+
+Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
+
+
 ## Reference
 
 1. Arduino: http://www.arduino.cc/
@@ -33,12 +40,6 @@ Tornado web server on PC which listens for serial communication from Arduino
 3. PyQt: https://riverbankcomputing.com/software/pyqt/intro
 
 4. Tornado Web Server: http://www.tornadoweb.org/en/stable/
-
-## PyQtUltrasonic
-
-Ultrasonic: A threaded GUI example with Python and Qt/PyQt 
-
-Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
 
 
 ## License

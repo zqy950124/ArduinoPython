@@ -2,13 +2,17 @@
 
 [![Gitter](https://badges.gitter.im/Py03013052/ArduinoPython.svg)](https://gitter.im/Py03013052/ArduinoPython?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This is a mirror of the local eclipse workspace for example projects:
+This is a mirror of the local eclipse workspace for example projects: Arduino+Python
+
+![Arduino](./doc/arduino.jpg)
 
 ## PyQtArduinoSerialDemo
 
 A threaded GUI example with Python and Qt/PyQt 
 
 This simple example display information from the Arduino and DHT11. 
+
+![Arduino-DHT11](./doc/Arduino-DHT11.png)
 
 Reference:  http://blog.wickeddevice.com/?p=191 
 
@@ -27,6 +31,8 @@ Tornado web server on PC which listens for serial communication from Arduino
 ## PyQtUltrasonic
 
 Ultrasonic: A threaded GUI example with Python and Qt/PyQt 
+
+![Arduino-SR04](./doc/Arduino-SR04.png)
 
 Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
 

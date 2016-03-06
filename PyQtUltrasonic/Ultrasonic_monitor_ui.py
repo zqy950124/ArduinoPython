@@ -33,7 +33,7 @@ class PlottingDataMonitor(QMainWindow):
 
         super(PlottingDataMonitor, self).__init__(parent)
 
-        self.setWindowTitle('Ultralsonic Monitor')
+        self.setWindowTitle('Ultrasonic Monitor')
         self.resize(800, 600)
         
         self.port = ""
@@ -130,7 +130,7 @@ class PlottingDataMonitor(QMainWindow):
         table = QTableWidget()
         table.setRowCount(5)
         table.setColumnCount(4)
-        table.setHorizontalHeaderLabels(['时间', '测量值', '分析值', '误差'])
+        table.setHorizontalHeaderLabels(['时间', ' 当前值', '均值', '误差'])
         return table
     
     def create_knob(self):
@@ -196,8 +196,8 @@ class PlottingDataMonitor(QMainWindow):
        
         # spins_hbox.addStretch(1)
 
-        self.gCheckBox = [self.create_checkbox("Distance(d)", Qt.green, self.activate_curve, 0),
-                          self.create_checkbox("Analysis(a)", Qt.red, self.activate_curve, 1),
+        self.gCheckBox = [self.create_checkbox("Current(d)", Qt.green, self.activate_curve, 0),
+                          self.create_checkbox("Average(a)", Qt.red, self.activate_curve, 1),
                           self.create_checkbox("Error(e)", Qt.blue, self.activate_curve, 2)
                          ]
 

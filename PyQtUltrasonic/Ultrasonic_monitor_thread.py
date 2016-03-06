@@ -5,7 +5,7 @@ import threading
 import time
 import serial
 
-from Ultrasonic_globals        import *
+from Ultrasonic_globals  import *
 
 def getvalue(line, itemname, unitstr):
     index = line.find (itemname)
@@ -65,18 +65,22 @@ class ComMonitorThread(threading.Thread):
         self.alive.set()
 
     def getUltrasonic(self):
-
+        global average
         distance = 0
-        analysis = 0
         error = 0
        
         line = self.serial_port.readline().decode()
         print(line)
         distance = getvalue(line, ' Distance ', 'cm')
-        analysis = distance
-        error = analysis - distance
+        
+        if (average == 0):
+            average = distance
+        else:
+            average = 0.5 * (average + distance)  
+        
+        error = distance - average  
         print('distance=', distance)
-        return {"d": distance, "a": analysis, "e": error}
+        return {"d": distance, "a": average, "e": error}
  
         
     def run(self):
@@ -104,7 +108,6 @@ class ComMonitorThread(threading.Thread):
             qdata[1] = sensor['a']
             qdata[2] = sensor['e'] 
            
-            
             print("qdata :", qdata)
             timestamp = time.clock()
             self.data_q.put((qdata, timestamp))

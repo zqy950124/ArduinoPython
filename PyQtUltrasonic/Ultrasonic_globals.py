@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 
 import  random
@@ -19,6 +18,8 @@ RightYMAX = 20.000
 RightYMIN = 0.000
 
 savedsamples = 100
+
+average = 0
 
 class LiveDataFeed(object):
     """ A simple "live data feed" abstraction that allows a reader 

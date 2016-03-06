@@ -47,6 +47,10 @@ Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
 
 4. Tornado Web Server: http://www.tornadoweb.org/en/stable/
 
+5. Noah Gift. Practical threaded programming with Python 
+
+http://www.ibm.com/developerworks/aix/library/au-threadingpython/index.html
+
 
 ## License
 

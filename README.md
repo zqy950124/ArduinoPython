@@ -16,7 +16,7 @@ This simple example display information from the Arduino and DHT11.
 
 Reference:  http://blog.wickeddevice.com/?p=191 
 
-## PyQtDHT11Sensor
+## PyQtArduinoDHT11
 
 A threaded GUI example with Python and Qt/PyQt 
 
@@ -24,11 +24,11 @@ A serial port packet monitor that plots live data using PyQwt
 
 Reference:  https://github.com/mba7/SerialPort-RealTime-Data-Plotter
 
-## TornadoArduinoDHT11_LEDWebSocket
+## TornadoArduinoDHT11
 
 Tornado web server on PC which listens for serial communication from Arduino 
 
-## PyQtUltrasonic
+## PyQtArduinoUltrasonic
 
 Ultrasonic: A threaded GUI example with Python and Qt/PyQt 
 

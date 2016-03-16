@@ -4,7 +4,7 @@
 
 Arduino, DHT11, HC-SR04  
 
-Python, PyQt, PySerial, PyQwt, Thread£¬Tornado
+Python, PyQt, PySerial, PyQwt, Thread, Tornado
 
 Websocket
 
